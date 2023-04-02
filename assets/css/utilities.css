@@ -1,0 +1,194 @@
+
+/* variables */
+:root{
+    --webwidth:1280px;
+    --main-color : #ffbc00;
+    --light-pink-color : #d77dcd;
+    --light-color : #e4e4e0ea;
+    --dark-color : #333;
+    --medium-color : #ccc;
+    --primary-color : blueviolet;
+}
+
+.container {
+    /* max-width: var(--webwidth); */
+
+    padding: 0 2.5rem;
+    margin: auto;
+    overflow: hidden;
+    min-height: 100%;
+    
+}
+
+.container-align-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* buttons */
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    color:#333;
+    background-color: var(--main-color);
+
+
+}
+
+.btn-light {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: var(--light-pink-color);
+    border-radius: 10px;
+}
+
+.btn-dark {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    color:white;
+    background-color: var(--dark-color);
+}
+
+/* any element with class starts with btn- make the background color to main-color */
+div[class^='btn-']:hover,
+a[class^='btn-']:hover{
+    background-color: var(--main-color);
+    color: black;
+}
+
+
+/* backgrounds color */
+
+.bg-main{
+    background: var(--main-color);
+    color: white;
+}
+
+.bg-dark{
+    background: var(--dark-color);
+    color: white;
+}
+.bg-light{
+    background: var(--light-color);
+    color: black;
+}
+.bg-medium{
+    background: var(--medium-color);
+    color: lightgray;
+}
+
+
+/* paragraph */
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: #333;
+
+}
+
+/* align the text center */
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.header-content {
+    text-align: center;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-content .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.header-content .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    
+}
+
+.header-content .column .column-1,
+.header-content .column .column-2{
+    height: 100%;
+    align-items: center;
+}
+
+.header-content h1{
+    font-size: 4rem;
+    color : black;
+    line-height: 1.2;
+}
+
+.header-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* padding */
+
+.py-1{ padding: 1rem 0;}
+
+.py-2{ padding: 2rem 0;}
+
+.py-3{ padding: 3rem 0;}
+
+.py-4{ padding: 4rem 0;}
+
+/* margin */
+
+.my-1{ margin: 1rem 0;}
+
+.my-2{ margin: 2rem 0;}
+
+.my-3{ margin: 3rem 0;}
+
+.my-4{ margin: 4rem 0;}
+
+
+.bottom-line{
+    height: 2px;
+    background: var(--main-color);
+    width: 3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+
+}
+
+.section-title{
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.2rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
