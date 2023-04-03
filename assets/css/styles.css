@@ -71,14 +71,14 @@ a:hover {
 
 /* header */
 #header-home{
-    background: url(assets/images/showcase.jpg) no-repeat center right / cover;
+    background: url(../images/showcase.jpg) no-repeat center right / cover;
     height: 100vh; 
     color: white;
     overflow: hidden;
 }
 
 #header-inner{
-    background: url(assets/images/showcase.jpg) no-repeat 20% 30% / cover;
+    background: url(../images/showcase.jpg) no-repeat 20% 30% / cover;
     height: 5.5rem;
     border-bottom: 3px solid var(--main-color);
 }
