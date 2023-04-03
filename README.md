@@ -2,7 +2,7 @@
 
    <p align="center">
      <a href="https://github.com/shahnidhi20/Portoflio_NS/">
-       <img src="" alt="Portfolio" width="430" height="500">
+       <img src="../images/main_page.jpg" alt="Portfolio" width="430" height="500">
      </a>
    </p>
 
