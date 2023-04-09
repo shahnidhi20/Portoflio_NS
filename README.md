@@ -1,7 +1,7 @@
 # Nidhi Shah Portfolio
 
    <p align="center">
-     <a href="hhttps://shahnidhi20.github.io/Portoflio_NS/">
+     <a href="https://shahnidhi20.github.io/Portoflio_NS/">
        <img src="./main_page.jpg" alt="Portfolio" width="430" height="500">
      </a>
    </p>
